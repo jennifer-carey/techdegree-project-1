@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: #062639;
+  background: #efefef;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #062639;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #efefef;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #efefef
 }
 
 header {
@@ -70,23 +70,23 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 5%;
-  border: 3px solid white;
+  border: 3px solid #efefef;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2); <!-- rotate(5deg) -->
+  transform: scale(1.2); /* rotate(5deg) --> */
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #062639;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: white;
-  color: black;
+  background-color: #efefef;
+  color: #062639;
   font-weight: bold;
 }
 .card {
@@ -95,13 +95,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #e7301c;
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: red;
-}
+/* .card:hover {
+  border-color: #e7301c;
+} */
 
 ul.skills {
   padding: 0;
@@ -111,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: red;
+  background: #e7301c;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: darkgray;
+  background: #999;
 }
 
 footer {
